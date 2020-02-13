@@ -1,0 +1,19 @@
+input[type=text], select {
+    width: 40%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  input[type=submit] {
+    width: 40%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+
+  }
+  
