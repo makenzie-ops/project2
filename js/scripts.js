@@ -20,15 +20,15 @@ function submitBirthDay(e) {
     }
 
     var day=new Date(year+"/"+ month+"/"+ date);
-    var Birthday=day.getDay();
+    var birthDay=day.getDay();
 
     if (Female.checked ==true ){
-        alert("You were born on "+days[Birthday]);
-        alert("Your name is "+Males[Birthday]);
+        alert("You were born on "+days[birthDay]);
+        alert("Your name is "+Females[birthDay]);
     }
     else if (Males.checked ==true){
             alert("You were born on"+days[Birthday]);
-            alert("Your name is "+Females[Birthday]);
+            alert("Your name is "+Males[Birthday]);
     }
 
 }
