@@ -6,7 +6,6 @@
     <title>form</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
   </head>
   <body>
      <div class="container">
@@ -24,26 +23,21 @@
       <form>
         <div class="arrow">
       Date:<br>
-      <input type="text" name="date " min="i" max="31" placeholder="birth date" >
+      <input type="text" id="date"name="date " min="i" max="31" placeholder="birth date" >
       <br> 
       Month:<br>
-      <input type="text" name="month" min="1" max="12" placeholder=" birth month">  <br>
+      <input type="text" id="month" name="month" min="1" max="12" placeholder=" birth month">  <br>
       year:<br>
-      <input type="text" name="year" placeholder="birth year"><br>
+      <input type="text" id="year" name="year" placeholder="birth year"><br>
       gender: <br>
      <input type="checkbox" class="Female">Female
      <input type="checkbox" class="Male">Male
-
-      <h3>males</h3>
-
-      
-      
       <br><br>
-      <input  type="submit" onclick="Birthday()">
+      <input  type="submit" id="submit">
         </div>
-    </form>
 
-    
+</form>
+<script src="js/scripts.js"></script>
   </body>
    <p id="output"></p>
 </html>

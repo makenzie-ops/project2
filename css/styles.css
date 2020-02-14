@@ -30,4 +30,7 @@ input[type=text], select {
       text-align: center;
       font-size: 35px;
   }
-  
+  .checkbox {
+      padding: 12px;
+      
+  }
