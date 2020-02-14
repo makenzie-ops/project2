@@ -6,11 +6,12 @@ input[type=text], select {
     border: 1px solid black;
     border-radius: 4px;
     text-align: center;
+    color: black;
   }
   
   input[type=submit] {
     width: 20%;
-    background-color: red;
+    background-color : green;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -19,7 +20,8 @@ input[type=text], select {
 
   }
   body {
-      background-image: url(https://bit.ly/38sTH00);
+      background-image: url(https://bit.ly/2uPgIM3);
+      color: honeydew;
       
   }
   .arrow {
@@ -31,12 +33,9 @@ input[type=text], select {
       text-align: center;
       font-size: 35px;
   }
-  .checkbox {
-      padding: 12px;
-      
-  }
-  .jumbotron {
+  
+  .jumb{
       color: white;
-      background-color: black;
+      background-color:gray;
 
   }
