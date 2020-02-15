@@ -20,7 +20,7 @@ input[type=text], select {
 
   }
   body {
-      background-image: url(https://bit.ly/2uPgIM3);
+      background-image: url(https://bit.ly/2St4NMN);
       color: honeydew;
       
   }
@@ -36,6 +36,10 @@ input[type=text], select {
   
   .jumb{
       color: white;
-      background-color:gray;
+      background-color:black;
 
+  }
+  .cd-md-6 {
+      float: left;
+      padding: 30px;
   }

@@ -3,17 +3,20 @@ let submitDetails = document.getElementById('submit')
 
 submitDetails.addEventListener('click', submitBirthDay)
 function submitBirthDay(e) {
+    
     e.preventDefault();
     var date = parseInt(document.getElementById("date").value);
+    
     var month = parseInt(document.getElementById("month").value);
     var year = document.getElementById("year").value;
     var CC=parseInt(year.slice(0,2));
     var YY=parseInt(year.slice(2,4));
     var gender = document.getElementById("gender").value;
+    console.log (gender)
 
     var days = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
-    var Males = ["Kwasi", "Kwadwo", "Kwabena", " Kwaku", "Yaw", "Kofi", " Kwame"];
-    var Females = ["Akosua", " Adwoa", " Abenaa", "Akua", " Yaa", "Afua", "Ama"];
+    var males = ["Kwasi", "Kwadwo", "Kwabena", " Kwaku", "Yaw", "Kofi", " Kwame"];
+    var females = ["Akosua", " Adwoa", " Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
     if (date <= 0 || date >31 ) {
         alert("Error!Enter correctly!!");
@@ -31,8 +34,8 @@ function submitBirthDay(e) {
     
     //var day=new Date(year+"/"+ month+"/"+ date);
     //var birthDay=day.getDay();
-    function gender() {
-        var pickGender = document.getElementById("gender").value;
+    
+     var pickGender = document.getElementById("gender").value;
 
     
      if (pickGender == 0){
@@ -45,4 +48,3 @@ function submitBirthDay(e) {
     }
 }
 
-}
