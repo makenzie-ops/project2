@@ -6,26 +6,48 @@ let submitDetails = document.getElementById('submit')
 submitDetails.addEventListener('click', submitBirthDay)
 function submitBirthDay(e) {
     e.preventDefault();
-    
     var year = parseInt(document.getElementById("year").value);
     var month = parseInt(document.getElementById("month").value);
     var date = parseInt(document.getElementById("date").value);
-    var gender =getGender ();
-    var date = newDate ( year +"/" + month + "/" + day);
-    var dayToBorn = date.getDate();
+    var gender =document.getElementById("gender").value;
+    
     var akanName;
-    var validDate = (year > 0 && (month > 0 && month<= 12) && (date > 0 && day <= 31));
+   
     var validDateGenger = ( gender == "male"  && gender == "female");
+    
+    CC = document.getElementById("year").value.slice(0,2);
+    YY = document.getElementById("year").value.slice(2,4);
      
     if ( month<= 0 || month >12) {
-        alert("Error! Enter correctly")
+        alert("Error! Enter correctly");
     }
     else if (date <=0 || date>=31) {
-        alert( "Invalid!!")
+        alert( "Invalid!!");
     }
     else if (year =0) {
-        alert("Error!!")
+        alert("Error!!");
+        }
+        else {
+            var dateWeek = Math.floor  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + date ) % 7
+        }
     }
-    if (gende === "female " && year > 0 )
-     
+
+
+function findAkanName (){
+    var newDateWeek = storeInput();
+    var newGender = getGender();
+    if( newGender = "female"){
+        document.getElementById("answer") 
+        alert("you are a female born on ") +days[newDateWeek] +( "and your akan name is ");
+    }
+    else if (newGender = "male"){
+        document.getElementById ("answer")
+        alert("you are a male born on ") +days[newDateWeek] + ("and your akan name is ");
+    }
+    else {
+        document.getElementById ("answer")
+        alert("check your data input");
+    }
+
 }
+
