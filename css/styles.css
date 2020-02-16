@@ -43,3 +43,8 @@ input[type=text], select {
       float: left;
       padding: 30px;
   }
+  h2 {
+      color: black;
+      font-weight: bold;
+      font-style: italic;
+  }
