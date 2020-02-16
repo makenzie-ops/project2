@@ -48,3 +48,8 @@ input[type=text], select {
       font-weight: bold;
       font-style: italic;
   }
+  h3 {
+      color: coral;
+      font-style: italic;
+      font-weight: bold;
+  }
