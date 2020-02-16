@@ -42,6 +42,7 @@ input[type=text], select {
   .cd-md-6 {
       float: left;
       padding: 30px;
+      color: black;
   }
   h2 {
       color: black;
