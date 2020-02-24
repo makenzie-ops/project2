@@ -60,4 +60,8 @@ input[type=text], select {
   body {
       font-family: sans-serif;
   }
-  
+  .icon {
+    color: gray;
+    font-style: italic;
+
+  }
