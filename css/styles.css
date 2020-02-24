@@ -47,6 +47,9 @@ input[type=text], select {
       padding: 30px;
       color: black;
   }
+  .akan {
+      float: right;
+  }
   h2 {
       color: black;
       font-weight: bold;
@@ -64,4 +67,6 @@ input[type=text], select {
     color: gray;
     font-style: italic;
 
+    
   }
+  
